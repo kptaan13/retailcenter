@@ -1,0 +1,71 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ul{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(66, 66, 211);
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 70%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+}
+
+th {
+  background-color: #74ac2b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+td{
+    background-color: rgba(255, 255, 0, 0.829);
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+ul{
+  text-align: center;
+}
+button{
+    background-color: rgb(10, 247, 247);
+}
+button:hover{
+    background-color: rgb(48, 196, 196);
+    border: 0px;
+}
+.home{
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+h1{
+  text-align: center;
+}

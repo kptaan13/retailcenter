@@ -1,0 +1,92 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #24cf2d;
+}
+ul{
+    text-align: center;
+    margin-top: 20px;
+}
+.container {
+    text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#forgetlabel {
+	font-weight: bold;
+}
+
+#forgetemail[type="email"] {
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+    width: 80%;
+}
+p{
+    text-align: center;
+}
+#forgetBtn{
+    margin-top: 30px;
+}
+#forgetxyz{
+    margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+#forgetvendor{
+    margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}

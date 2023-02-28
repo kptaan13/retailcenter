@@ -1,0 +1,89 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+button{
+    background-color: #22db28;
+    color: black;
+    margin-top: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ul{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(66, 66, 211);
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+}
+
+th {
+  background-color: #74ac2b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+td{
+    background-color: rgba(255, 255, 0, 0.829);
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+ul{
+  text-align: center;
+}
+.button {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid none;
+  background-color: #70d741;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 40px;
+}
+.button:hover {
+  background-color: #94ff62;
+}
+.home{
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+h2{
+  text-align: center;
+}
