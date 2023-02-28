@@ -1,3 +1,3 @@
-<a href="https://kptaan13.github.io/retailcenter/">VISIT SITE</a>
-I created a simple web program that can check for new shipments and show vendor's about new orders with the help of html,css and javascript. <br>
-<h2>Check it out</h2>
+# retailcompany
+<p>I created a simple web program for a xyz company and vendor to know about new shipment and orders with the help of html, css and javascript. Just check it out.</p>
+<a href="https://kptaan13.github.io/retailcompany/">VISIT SITE</a>
