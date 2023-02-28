@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Dashboard</title>
+    <link rel="stylesheet" href="style/stylexyzdashboard.css">
+</head>
+<body>
+	<div class="home">
+        <a style="text-decoration: none; color: #1f9823; font-weight: bolder;" href="index.html">Sign out</a>
+    </div>
+    <h2>Welcome to XYZ Shipment Dashboard</h2>
+    <table id="shipment">
+		<thead>
+			<tr>
+				<th>Shipment ID</th>
+				<th>Source City</th>
+				<th>Destination City</th>
+				<th>Carrier</th>
+				<th>Distance</th>
+				<th>Total Volume</th>
+				<th>Status</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1234</td>
+				<td>Los Angeles</td>
+				<td>New York</td>
+				<td>UPS</td>
+				<td>2,800 miles</td>
+				<td>20 cubic feet</td>
+				<td>Delivered</td>
+			</tr>
+		</tbody>
+	</table>
+    <button id="plus" onclick="plusClick()">+ New Shipment</button>
+		<form id="plusform" style="display: none;" action="xyzdashboard.html">
+			<label for="source"><b>Source</b></label>
+			<input type="text" placeholder="Source" name="username" required>
+			<label for="destination">Destination</label>
+            <input type="text" name="destination" id="destination">
+            <label for="distance">Distance (km)</label>
+            <input type="text" name="distance" id="distance">
+            <label for="carrier">Carrier</label>
+            <input type="text" name="carrier" id="carrier">
+            <label for="value">Value (in $)</label>
+            <input type="text" name="value" id="value">
+            <label for="status">Status</label>
+            <input type="text" name="status" id="status">
+			<button id="plus" type="submit">Save</button>
+		</form>
+        <script src="java/java.js"></script>
+		<ul><a id="editshipment" class="button" href="editshipment.html">Edit Shipments</a></ul>
+</body>
+</html>

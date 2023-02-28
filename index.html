@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Log In</h2>
+        <h3>User Type</h3>
+		<button onclick="xyzClick()">XYZ</button>
+		<form id="xyzlogin" style="display: block;" action="xyzdashboard.html">
+			<label for="username"><b>UserId</b></label>
+			<input type="text" placeholder="Enter User Id for XYZ" name="username" minlength="6" required>
+			<label for="password"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" required minlength="8">
+			<button type="submit">Login</button>
+		</form>
+
+        <button onclick="vendorClick()">VENDOR</button>
+        <form id="vendorlogin" style="display: none;" action="vendordashboard.html">
+			<label2 for="username"><b>UserId</b></label>
+			<input type="text" placeholder="Enter User Id for vendor" name="username" required minlength="6">
+			<label for="password"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="password" required minlength="8">
+			<button type="submit">Login</button>
+		</form>
+	</div>
+
+    <ul><a href="forgetpassword.html">Forget your Password?</a></ul>
+    <script src="java/java.js"></script>
+</body>
+</html>
